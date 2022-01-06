@@ -1,0 +1,11 @@
+name: FancyArmorStandUtils
+version: '${project.version}'
+main: dev.floffah.plugins.fancyarmorstatndutils.FancyArmorStandUtils
+api-version: 1.16
+authors: [ Floffah ]
+description: Adds tools to manipulate armor stands
+website: https://discord.gg/YftA4WKMws
+depend: [ ProtocolLib ]
+commands:
+  armorstandbookaction:
+    description: Command ran by the armor stand book to handle specific actions. Not for players to run manually.
